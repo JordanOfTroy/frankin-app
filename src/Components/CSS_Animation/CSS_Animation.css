@@ -1,0 +1,49 @@
+.anime_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  border-radius: 9px;
+  margin: 5px;
+  height: 90%
+}
+
+.anime_obj {
+  height: 87%;
+  width: 29%;
+  background-color: darkgray;
+  border: solid black 1px;
+  border-radius: 9px;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.anime_obj .obj {
+  height: 100px;
+  width: 100px;
+  background-color: hotpink;
+  border-radius: 9px;
+  position: absolute; 
+  top: 90px;
+  transition: 1s
+
+}
+
+
+#obj_3:hover {
+  background-color: red;
+  border-radius: 50%;
+  transform: scale(1.8)
+
+}
+
+#obj_2:hover {
+  border-radius: 0px;
+  background-color: green;
+  transform: rotate(765deg)
+}
