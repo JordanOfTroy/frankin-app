@@ -1,0 +1,32 @@
+.flex_me {
+  width: 45%;
+  display: flex;
+  flex-direction: row
+}
+
+/* 27E */
+#flex_Fwd {
+  flex-wrap: wrap;
+}
+
+/* 27E */
+#flex_Rev {
+  flex-wrap: wrap-reverse;
+}
+
+.flexed_obj {
+  height: 40px;
+  width: 300px;
+  background-color: blue;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+
+.flex_me h1 {
+  width: 300px
+}
+
