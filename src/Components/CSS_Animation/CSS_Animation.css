@@ -23,6 +23,7 @@
 
 }
 
+/* 28D */
 .anime_obj .obj {
   height: 100px;
   width: 100px;
@@ -38,6 +39,7 @@
   animation: grow 3s infinite linear;
 }
 
+/* 28E */
 #obj_2:hover {
   border-radius: 0px;
   background-color: green;
@@ -50,6 +52,7 @@
   transform: scale(1.8)
 }
 
+/* 28C */
 @keyframes grow {
   0% {background: blue; width: 100px; border-radius: 50%;}
   25% {background: purple; width: 200px;}
